@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 function App() {
     return (
         <div className="container">
-            this is a sample react component 22
+            this is a sample react component 2
         </div>
     );
 }
