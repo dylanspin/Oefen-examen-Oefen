@@ -3,17 +3,18 @@ import ReactDOM from 'react-dom';
 
 function Example() {
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
-
-                        <div className="card-body">I'm an example component!</div>
-                    </div>
-                </div>
+        <header className="mb-auto">
+            <div>
+                <h3 className="float-md-start mb-0">Cover</h3>
+                <nav className="nav nav-masthead justify-content-center float-md-end">
+                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <a className="nav-link" href="#">Features</a>
+                    <a className="nav-link" href="#">Contact</a>
+                </nav>
             </div>
-        </div>
+            <button type="button" classname="btn btn-primary">Primary</button>
+            <button type="button" classname="btn btn-secondary">Secondary</button>
+        </header>
     );
 }
 
