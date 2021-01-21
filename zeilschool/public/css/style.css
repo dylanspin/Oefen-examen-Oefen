@@ -1,0 +1,72 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.jumbotron{
+    border-radius: 0px;
+    margin: 0px;
+}
+.thick{
+    font-family: 'Coda Caption', sans-serif;
+}
+.color1{
+    background : #191919;
+}
+.color2{
+    background : #171717;
+}
+.color3{
+    background : #151515;
+}
+.white{
+    background-color: #fff;
+}
+.grayText{
+    color: #F8FAFC;
+}
+.mgt{
+    margin-top: 75px;
+}
+.mpt{
+    padding-top: 75px;
+}
+.small{
+    font-size: 15px;
+}
+footer{
+    margin: 0px;
+}
+.absolute{
+    position: absolute;
+}
+.topCard{
+    height: 200px;
+    background-color: #171717;
+}
+.card{
+    border: none;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+.fullImage{
+    width: 100%;
+    height: 100%;
+}
+.Main{
+    position: relative;
+    width: 100%;
+}
+
+.MoreButton{
+    transition: 0.3s;
+    color: #191919;
+    display: inline-block;
+    cursor: pointer;
+}
+.MoreButton:hover{
+    transform: scale(1.05,1.05);
+    color: #191919;
+    border-bottom: #191919 2px;
+}
