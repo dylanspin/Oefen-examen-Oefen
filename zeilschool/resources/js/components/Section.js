@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 
 function Section() {
     return (
-        <div className="jumbotron pb-5 white">
-            <div className="container">
+        <div className="jumbotron pb-5 color2">
+            <div className="container grayText pb-5">
                 <div className="row">
                     <div className="col mr-5">
                         <h1>Wie zijn wij</h1>

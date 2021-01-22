@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 function Footer() {
     return (
         <footer className="page-footer font-small blue">
-            <div className="container-fluid text-center text-md-left color3">
+            <div className="container-fluid text-center text-md-left color2">
                 <div className="row pt-5 pb-5">
                     <div className="col-md-6 mt-md-0 mt-3 pl-5">
                         <h3 className="font-weight-bold text-white">Zeil School De Waai</h3>
@@ -45,7 +45,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="footer-copyright text-center color2 grayText p-2">© 2021 Copyright:
+            <div className="footer-copyright text-center color1 grayText mt-3">© 2021 Copyright:
                 <a href="https://github.com/dylanspin" className="mr-5 text-white">Zeil School De Waai</a>  Styling done by Dylan Spin
             </div>
         </footer>
