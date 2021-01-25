@@ -16,14 +16,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" >
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm"  >
             <!-- <div class="container pt-4"> -->
                 <a class="navbar-brand ml-4" href="{{ url('/') }}">
                    <h2 class="mt-2 thick">Zeil School De Waai</h2>
@@ -33,11 +32,40 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto mt-2 ml-5">
-                        <i class="fa fa-phone large"></i> <h4 class="ml-2">  : 31 (0)6 43 53 23 32</h4>
-                        <i class="fa fa-envelope large ml-5"></i> <h4 class="ml-2">  : contact@dewaai.com</h4>
+                    <ul>
+                        <div class="row mt-2">
+                            <div class="col with">
+                                <a href="" class="headerButton"> 
+                                    Prive Cursus
+                                    <div class="underline"></div>
+                                </a>
+                            </div>
+                            <div class="col with">
+                                <a href="" class="headerButton"> 
+                                    Dag Cursus
+                                    <div class="underline"></div>
+                                </a>
+                            </div>
+                            <div class="col with">
+                                <a href="" class="headerButton"> 
+                                    Over ons 
+                                    <div class="underline"></div>
+                                </a>
+                            </div>
+                            <div class="col with">
+                                <a href="" class="headerButton"> 
+                                    Reviews 
+                                    <div class="underline"></div>
+                                </a>
+                            </div>
+                            <div class="col with">
+                                <a href="" class="headerButton"> 
+                                    Contact 
+                                    <div class="underline"></div>
+                                </a>
+                            </div>
+                        </div>
                     </ul>
-
                     <ul class="navbar-nav ml-auto">
                         @guest
                             @if (Route::has('login'))
@@ -56,7 +84,6 @@
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
                                 </a>
-
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();

@@ -45,7 +45,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="footer-copyright text-center color1 grayText mt-3">© 2021 Copyright:
+            <div className="footer-copyright text-center color1 grayText p-3">© 2021 Copyright:
                 <a href="https://github.com/dylanspin" className="mr-5 text-white">Zeil School De Waai</a>  Styling done by Dylan Spin
             </div>
         </footer>

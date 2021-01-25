@@ -11,6 +11,11 @@ function Prive() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget odio tellus.
                     Donec consequat felis pellentesque, faucibus mi a, accumsan nunc. Cras 
                 </p>
+                <h1 className="jumbotron-heading mt-5">Dag Cursussen</h1>
+                <p className="lead text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget odio tellus.
+                    Donec consequat felis pellentesque, faucibus mi a, accumsan nunc. Cras 
+                </p>
             </div>
         </div>
     );

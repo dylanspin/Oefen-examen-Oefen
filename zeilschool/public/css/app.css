@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
-@charset "UTF-8";
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7743,19 +7742,9 @@ button.bg-dark:focus {
   padding: 1.5rem !important;
 }
 
-.pt-4,
-.py-4 {
-  padding-top: 1.5rem !important;
-}
-
 .pr-4,
 .px-4 {
   padding-right: 1.5rem !important;
-}
-
-.pb-4,
-.py-4 {
-  padding-bottom: 1.5rem !important;
 }
 
 .pl-4,

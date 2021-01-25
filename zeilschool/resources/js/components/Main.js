@@ -8,7 +8,7 @@ function Main() {
             <h1 className="grayText mt-5 ml-5">Laatste nieuws</h1>
             <div className="container pb-5">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 justify-content-md-center mpt">
-                    <div className="col">
+                    <div className="col inlineShadow">
                         <div className="card pb-4">
                             <img className="card-img-top topCard" src="/images/stock1.jpg" alt="Card image cap"/>
                             <div className="card-body">
