@@ -2,7 +2,7 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
     background-color: #FFFFFF;
     margin: 0;
-    background-color: #191919;
+    background-color: #141414;
     padding: 0px;
 }
 .jumbotron{
@@ -26,6 +26,15 @@ body{
 }
 .color3{
     background : #151515;
+}
+.color4{
+    background : #141414;
+}
+.Tdark{
+    color: #171717;
+}
+.Tdark:hover{
+    color: #171717;
 }
 .Twhite{
     color: #777;
@@ -61,6 +70,10 @@ footer{
     height: 200px;
     background-color: #171717;
 }
+.topCard2{
+    height: 400px;
+    background-color: #171717;
+}
 .card{
     border: none;
 }
@@ -82,7 +95,6 @@ footer{
 .Main{
     position: relative;
     width: 100%;
-    top: -25px;
     margin: 0px;
     padding: 10px;
 }
@@ -164,4 +176,12 @@ main{
     z-index: 100;
     font-size: 150px;
     color: white;
+}
+.cardHover{
+    transition: 0.3s;
+    text-decoration: none;
+}
+.cardHover:hover{
+    transform: scale(1.05,1.05);
+    text-decoration: none;
 }

@@ -18,3 +18,4 @@ require('./components/Main');
 require('./components/Section');
 require('./components/Footer');
 require('./components/Prive');
+require('./components/Floot');

@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test',[App\Http\Controllers\Controller::class, 'boot'])->name('boot');//accepts invite
+Route::get('/boot/{id}',[App\Http\Controllers\Controller::class, 'boot'])->name('boot');//accepts invite
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

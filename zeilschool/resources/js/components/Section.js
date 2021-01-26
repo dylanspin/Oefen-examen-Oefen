@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 function Section() {
     return (
-        <div className="jumbotron pb-5 color2">
+        <div className="jumbotron pb-5 color4">
             <div className="container grayText pb-5">
                 <div className="row">
                     <div className="col mr-5">
