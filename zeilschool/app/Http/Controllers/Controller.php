@@ -14,7 +14,6 @@ class Controller extends BaseController
 
     public function boot($bootId)
     {
-        echo $bootId;
-        return view('boot');
+        return view('boot')->with('num', $bootId);
     }
 }
