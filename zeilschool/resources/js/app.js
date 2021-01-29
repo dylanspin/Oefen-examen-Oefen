@@ -20,3 +20,4 @@ require('./components/Footer');
 require('./components/Prive');
 require('./components/Floot');
 require('./components/Boot');
+require('./components/BootHuren');

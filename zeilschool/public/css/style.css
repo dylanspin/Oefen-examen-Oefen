@@ -9,6 +9,9 @@ body{
     border-radius: 0px;
     margin: 0px;
 }
+.test{
+    background-color: red;
+}
 .thick{
     font-family: 'Coda Caption', sans-serif;
 }
@@ -184,4 +187,33 @@ main{
 .cardHover:hover{
     transform: scale(1.05,1.05);
     text-decoration: none;
+}
+.sideImage{
+    position: relative;
+    height: 70vh;
+}
+.textheight{
+    height: 400px;
+}
+.huur{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    border: none;
+    padding: 1%;
+    font-size: 25px;
+    background-color: #111111;
+    color: white;
+    box-shadow: 5px 1000px 5px #111111 inset;
+    transition: 0.3s;
+}
+.huur:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: none;
+}
+.textHeight{
+    height: 125px;
+}
+.inset{
+    box-shadow: 0 0 10px #000000;
 }
