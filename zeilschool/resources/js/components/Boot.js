@@ -24,7 +24,11 @@ class Boot extends Component {
 					</div>
 					<div className="col mr-5 Twhite">
 						<h1 className="mb-5">{this.state.name[this.props.num]}</h1>
-                        <h5>fuihsuidfb shjfuis nsuidfn hfiud fhusidf uifhbs dbfus fnbusifb  jishbfs fdbufbsn cbsudfb</h5>
+                        <h4>
+							Mauris non maximus velit. Pellentesque iaculis fermentum tempor. Nulla at sem pretium, vulputate felis ut, volutpat eros. Pellentesque volutpat justo
+							quis massa consequat rutrum. Mauris eleifend vel arcu in cursus. Mauris interdum, 
+							justo sed auctor laoreet, dolor ex facilisis lorem, non pharetra nibh mauris id nibh. Nam dictum ipsum justo, mattis ultricies massa bibendum id.
+						</h4>
 						<form action="/boot/send" method="POST">
 							<button className="huur d-none d-md-block">Huur Deze Boot</button>
 						</form>

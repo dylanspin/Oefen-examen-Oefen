@@ -13,7 +13,7 @@ function Section() {
                         <p className="small">some more random </p>
                     </div>
                     <div className="col ml-5">
-                        <h1>Wie zijn wij</h1>
+                        <h1>Wat Doen wij</h1>
                         <h5>fuihsuidfb shjfuis nsuidfn hfiud fhusidf uifhbs dbfus fnbusifb  jishbfs fdbufbsn cbsudfb</h5>
                         <p className="small">some more random </p>
                     </div>

@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test',[App\Http\Controllers\Controller::class, 'boot'])->name('boot');//accepts invite
-Route::get('/boot/{id}',[App\Http\Controllers\Controller::class, 'boot'])->name('boot');//accepts invite
+Route::get('/boot/{id}',[App\Http\Controllers\Controller::class, 'boot'])->name('boot');//ga naar boot 
+Route::get('/contact',[App\Http\Controllers\Controller::class, 'contact'])->name('contact');//ga naar boot 
+Route::get('/dag',[App\Http\Controllers\Controller::class, 'dag'])->name('dag');//ga naar boot 
+Route::get('/prive',[App\Http\Controllers\Controller::class, 'prive'])->name('prive');//ga naar boot 
+Route::get('/review',[App\Http\Controllers\Controller::class, 'review'])->name('review');//ga naar boot 
+Route::get('/ons',[App\Http\Controllers\Controller::class, 'ons'])->name('ons');//ga naar boot 
 
 Auth::routes();
 

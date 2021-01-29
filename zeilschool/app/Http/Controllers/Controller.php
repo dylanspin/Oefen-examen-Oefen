@@ -16,4 +16,29 @@ class Controller extends BaseController
     {
         return view('boot')->with('num', $bootId);
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function dag()
+    {
+        return view('dag');
+    }
+
+    public function prive()
+    {
+        return view('prive');
+    }
+
+    public function review()
+    {
+        return view('review');
+    }
+
+    public function ons()
+    {
+        return view('overOns');
+    }
 }

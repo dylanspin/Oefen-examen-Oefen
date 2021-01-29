@@ -217,3 +217,21 @@ main{
 .inset{
     box-shadow: 0 0 10px #000000;
 }
+.topRounded{
+    background-color: #0091FF;
+    height: 25px;
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+}
+.bottomContact{
+    height: 350px;
+}
+.center{
+    text-align: center;
+}
+.larger{
+    transform: scale(1.1,1.1);
+}
+.ContactList{
+    font-size: 20px;
+}

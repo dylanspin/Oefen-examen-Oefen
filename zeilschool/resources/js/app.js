@@ -21,3 +21,5 @@ require('./components/Prive');
 require('./components/Floot');
 require('./components/Boot');
 require('./components/BootHuren');
+require('./components/Contact');
+require('./components/Us');

@@ -35,31 +35,31 @@
                     <ul>
                         <div class="row mt-2">
                             <div class="col with">
-                                <a href="" class="headerButton"> 
+                                <a href="{{ url('/prive') }}" class="headerButton"> 
                                     Prive Cursus
                                     <div class="underline"></div>
                                 </a>
-                            </div>
+                            </div> 
                             <div class="col with">
-                                <a href="" class="headerButton"> 
+                                <a href="{{ url('/dag') }}" class="headerButton"> 
                                     Dag Cursus
                                     <div class="underline"></div>
                                 </a>
                             </div>
                             <div class="col with">
-                                <a href="" class="headerButton"> 
+                                <a href="{{ url('/ons') }}" class="headerButton"> 
                                     Over ons 
                                     <div class="underline"></div>
                                 </a>
                             </div>
                             <div class="col with">
-                                <a href="" class="headerButton"> 
+                                <a href="{{ url('/review') }}" class="headerButton"> 
                                     Reviews 
                                     <div class="underline"></div>
                                 </a>
                             </div>
                             <div class="col with">
-                                <a href="" class="headerButton"> 
+                                <a href="{{ url('/contact') }}" class="headerButton"> 
                                     Contact 
                                     <div class="underline"></div>
                                 </a>
